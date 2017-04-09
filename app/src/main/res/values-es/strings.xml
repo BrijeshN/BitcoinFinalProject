@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="BitcoinFinalProject">BitcoinFinalProject</string>
+
+    <string-array name="menu_array">
+        <item>Precio</item>
+        <item>Gráfico</item>
+        <item>Bloquear</item>
+        <item>Equilibrar</item>
+    </string-array>
+
+        <string name="json">
+{
+	\"status\": \"success\",
+	\"data\": [{
+		\"blockAddress\": \"1DkRWKXpfQwm5b1pGL2QdpPdrUdKSdzbnG\",
+		\"balance\": 0.00183141,
+		\"balance_multisig\": 0
+	}, {
+		\"blockAddress\": \"198aMn6ZYAczwrE5NvNTUMyJ5qkfy4g3Hi\",
+		\"balance\": 8000.00236957,
+		\"balance_multisig\": 0
+	}, {
+		\"blockAddress\": \" 1L8meqhMTRpxasdGt8DHSJfscxgHHzvPgk\",
+		\"balance\": 0,
+		\"balance_multisig\": 0
+	}],
+	\"code\": 200,
+	\"message\": \"\"
+}
+    </string>
+
+    <string name="menu">menú</string>
+
+    <string name="qr">Escanear</string>
+    <string name="blockAddress">IR</string>
+    <string name="balance">Equilibrar</string>
+
+    <string name="time_period">Introducir días</string>
+    <string name="load_chart">Buscar</string>
+
+    <string name="coinbase_price">Precio Bitcoin</string>
+
+    <string name="block">Bloque de búsqueda</string>
+    <string name="hash">Picadillo</string>
+    <string name="confirmations">Confirmaciones</string>
+    <string name="vout_sum">Vout Sum</string>
+    <string name="size">tamaño</string>
+
+    <string name="previous">Anterior</string>
+    <string name="next">Siguiente</string>
+
+
+</resources>

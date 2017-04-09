@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.temple.bitcoinfinalproject.GraphFragment">
+
+
+    <Button
+        android:id="@+id/btn_load_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/load_chart"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/image" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:id="@+id/editText"
+        android:textSize="25sp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toStartOf="@+id/btn_load_image"
+        android:layout_alignParentTop="true"
+        android:text="1d" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:textSize="25sp"
+        android:text="@string/time_period"
+        android:id="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/editText"
+        android:layout_above="@+id/image" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="325sp"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/btn_load_image"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+</RelativeLayout>

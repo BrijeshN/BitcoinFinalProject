@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.temple.bitcoinfinalproject.BlockFragment">
+
+    <TextView
+        android:id="@+id/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/hash"
+        android:layout_below="@+id/hash"
+        android:layout_marginTop="13dp"
+        android:text="@string/size"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/previous"
+        android:layout_alignBottom="@+id/previous"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp"
+        android:text="@string/next" />
+
+    <Button
+        android:id="@+id/goButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/block_number"
+        android:layout_alignParentEnd="true"
+        android:text="@string/block"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/hash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/hash_text"
+        android:layout_alignBottom="@+id/hash_text"
+        android:layout_marginStart="11dp"
+        android:text="@string/hash"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/size_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vout_sum"
+        android:layout_toEndOf="@+id/previous"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/hash_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/size_text"
+        android:layout_below="@+id/block_number"
+        android:layout_marginTop="39dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/vout_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/size"
+        android:layout_below="@+id/size"
+        android:layout_marginTop="14dp"
+        android:text="@string/vout_sum"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/confirmations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/previous"
+        android:layout_below="@+id/vout_sum"
+        android:layout_marginTop="21dp"
+        android:text="@string/confirmations"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/vout_sum"
+
+        android:layout_below="@+id/confirmations"
+        android:layout_marginTop="43dp"
+        android:text="@string/previous" />
+
+    <TextView
+        android:id="@+id/confirmations_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/confirmations"
+
+        android:layout_alignBottom="@+id/confirmations"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/confirmations"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/block_number"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_toStartOf="@+id/next"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:id="@+id/vout_sum_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_above="@+id/confirmations"
+        android:layout_alignStart="@+id/size_text" />
+
+
+</RelativeLayout>

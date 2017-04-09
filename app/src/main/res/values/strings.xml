@@ -1,0 +1,53 @@
+<resources>
+    <string name="BitcoinFinalProject">BitcoinFinalProject</string>
+
+    <string-array name="menu_array">
+        <item>Price</item>
+        <item>Chart</item>
+        <item>Block</item>
+        <item>Balance</item>
+    </string-array>
+
+        <string name="json">
+{
+	\"status\": \"success\",
+	\"data\": [{
+		\"blockAddress\": \"1DkRWKXpfQwm5b1pGL2QdpPdrUdKSdzbnG\",
+		\"balance\": 0.00183141,
+		\"balance_multisig\": 0
+	}, {
+		\"blockAddress\": \"198aMn6ZYAczwrE5NvNTUMyJ5qkfy4g3Hi\",
+		\"balance\": 8000.00236957,
+		\"balance_multisig\": 0
+	}, {
+		\"blockAddress\": \" 1L8meqhMTRpxasdGt8DHSJfscxgHHzvPgk\",
+		\"balance\": 0,
+		\"balance_multisig\": 0
+	}],
+	\"code\": 200,
+	\"message\": \"\"
+}
+    </string>
+
+    <string name="menu">menu</string>
+
+    <string name="qr">Scan</string>
+    <string name="blockAddress">GO</string>
+    <string name="balance">Balance</string>
+
+    <string name="time_period">Enter days</string>
+    <string name="load_chart">Search</string>
+
+    <string name="coinbase_price">Bitcoin Price</string>
+
+    <string name="block">Search Block</string>
+    <string name="hash">Hash</string>
+    <string name="confirmations">Confirmations</string>
+    <string name="vout_sum">Vout Sum</string>
+    <string name="size">Size</string>
+
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+
+
+</resources>

@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.temple.bitcoinfinalproject.PriceFragment">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:id="@+id/coinbase_price_view"
+        android:gravity="center"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/coinbase_price"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="@string/coinbase_price"
+        android:layout_gravity="center_horizontal|top"
+        android:id="@+id/coinbase_price"
+        android:layout_marginTop="47dp"
+
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
